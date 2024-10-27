@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: aliceblue;
+    background-color: black;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    padding: 15px 20px;
+    font-family: cursive;
+}
+
+.navbars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link,
+li {
+    display: flex;
+}
+
+.nav-link li,
+a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+
+    color: rgb(6, 140, 46);
+
+}
+
+.contact {
+
+    text-align: center;
+    background-image: url(image/ab.jpg);
+    margin: 20px;
+    padding: 30px;
+
+    color: aliceblue;
+    height: 40vh;
+    width: 100vw;
+    padding-top: 5%;
+
+}
+.contact p{ 
+    padding-top: 30px; 
+}
+
+body {
+    background-color: rgb(4, 5, 6);
+    color: aliceblue;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.auna {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.gap {
+    padding-top: 90px;
+  
+}
+
+.garexaina img {
+  
+    /* padding-top: 90px; */
+
+}
+
+figure img {
+    justify-content: center;
+}
+
+.garexaina {
+    text-align: center;
+}
+
+.fildstyle {
+    width: 50%;
+    display: flex;
+    text-align: center;
+}
+
+.subscribe {
+    display: flex;
+}
+
+fieldset {
+    width: 100%;
+}
+
+.fildse {
+    display: flex;
+    margin-left: 42%;
+  
+}
+
+.auna {
+    display: flex;
+
+}
+
+.naam {
+    margin-top: 100px;
+    /* padding-bottom: 100px; */
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+} 
+.adjust{ 
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: auto;
+padding-bottom: auto;
+}

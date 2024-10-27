@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: aliceblue;
+    background-color: black;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    padding: 15px 20px;
+    font-family: cursive;
+}
+
+.navbars {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbars li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav-link {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link li {
+
+    margin-left: 20px;
+}
+
+.nav-link a:hover {
+    color: yellow;
+}
+
+.contact {
+    text-align: center;
+    background-image: url(image/ab.jpg);
+    padding: 30px;
+    color: aliceblue;
+    height: 40vh;
+    width: 100vw;
+    padding-top: 5%;
+
+}
+.contact a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container {
+    padding: 16px;
+}
+
+input[type=text],
+input[type=email],
+input[type=number]{
+    width: 100%;
+    padding: 25px 10px 25px 10px;
+    margin: 5px 0 22px 0;
+    /* display: flex; */
+    border: 1px solid black;
+    background-color: white;
+    
+}
+.name{
+    /* display: flex; */
+    margin: 20px;
+    width: 100%;
+} 
+
+
+.displaying{
+    display: flex;
+    
+}
+
+
+
+textarea{
+        padding: 30px;
+        width: 70%;
+        min-height: 13em;
+    }
+
+    .fildse{
+    display: flex;
+      margin-left: 40%;
+      width: 85vw;
+    /* justify-content: center; */
+     
+    }
+
+
+    .garexaina {
+        text-align: center;
+        padding: 100px 0px 100px 0px;
+    }
+    .gap{
+       text-align: center;
+       background-color: rgb(18, 20, 20);
+       color:aliceblue;
+     margin-top: 30px;
+     padding-top: 30px;
+     padding-bottom: 40px;
+    }
+    .middle{
+        padding-bottom: 40px;
+    }
+    .between{
+        background-color: black;
+
+    }
+    .between p{
+        color: aliceblue;
+        text-align: center;
+        padding-top: 5%; 
+        font-family: cursive;
+        font-size: larger;
+        padding-bottom: 5%;
+
+    }
+    .middle{
+        /* text-align: center; */
+        display: flex;
+
+    }
+
+
+.subscribe {
+    height: 5vh;
+  
+background-color: black;
+color: rgb(228, 235, 241);
+width:fit-content;
+}
+.different{
+    border:0px,solid black;
+    
+}
+.threep{ padding-top: 30px;
+
+}
+.manage {
+
+
+}
+

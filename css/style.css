@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    color: aliceblue;
+    background-color: black;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    padding: 15px 20px;
+    font-family: cursive;
+
+}
+.navbars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link, li{
+    display: flex;
+    /* list-style: none; */
+    /* position: relative; */
+    /* left: 350px; */
+
+
+}
+.nav-link li , a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+h2 div{
+    text-align: center;
+    background-image: url(image/ab.jpg);
+    padding: 30px;
+    color: aliceblue;
+}
+ p{
+    text-align: center;
+    font-family: cursive;
+    background-color: black;
+ }
+.nav-link a:hover{
+    
+        color: rgb(6, 140, 46);
+    
+    }
+
+p,a { 
+    color: rgb(231, 243, 243);
+    /* font-size: small;
+    display: block; */
+}
+body{
+    background-color: black;
+}
+.background h2{
+    background-image: none;
+    display: -webkit-inline-flex;
+    background-color: rgb(246, 232, 232);
+
+}
+.ahuro h2{
+    background-image: none;
+    display:flex
+    
+
+
+}
+.boring div, p{
+right: 1em;
+}
+.thaxaina ,input{
+    align-items: center;
+    display: flex;
+}
+.calar{
+    background-color: aliceblue;
+}
+
+.yyy{
+    display: flex;
+  
+}
+.style2, input{
+    justify-content: space-around;
+}
+
+.garexaina  figure,img{
+    align-items: center;
+    text-align: center;
+}
+h3{
+text-align: center;
+font: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.popular{
+    align-items: center;
+    
+}
+.fildse{
+    display: flex;
+    margin-left: 40%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: black;
+}

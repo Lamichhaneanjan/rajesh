@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    color: aliceblue;
+    background-color: black;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    padding: 15px 20px;
+    font-family: cursive;
+}
+.navbars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link, li{
+        display: flex;
+}
+.nav-link li , a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}

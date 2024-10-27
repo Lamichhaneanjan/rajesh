@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    color: aliceblue;
+    background-color: rgb(15, 4, 4);
+    position: sticky;
+    width: 100%;
+    top: 0;
+    padding: 15px 20px;
+    font-family: cursive;
+
+}
+.navbars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-link {
+        display: flex;
+        list-style-type:none;
+      
+}
+.nav-link li { 
+margin-left: 20px;
+   color: rgb(206, 200, 200);
+    
+}
+.nav-link a{
+    text-decoration: none;
+    color: aliceblue;
+    
+
+}
+
+body{
+    background-color: rgb(4, 5, 6);
+    color: aliceblue;
+
+}
+
+
+
+.contact h2 {
+    color: rgb(186, 190, 191);
+    text-align: center;
+    background-image: url(image/ab.jpg);
+    margin: 20px;
+    padding: 30px;
+}
+
+.between{
+   text-align: center;
+ 
+}
+.between a{
+    color: aliceblue;
+}
+    
+
+
+input textarea{
+    background-color: rgb(202, 188, 188); 
+    border: 1px solid #d7d7e2;
+    color:#9a9aa1;
+} 
+
+.garexaina{
+text-align: center;
+}
+
+.nav-link a:hover{
+    
+    color: rgb(6, 140, 46);
+
+}
+
+
+

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: aliceblue;
+    background-color: black;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    padding: 15px 20px;
+    font-family: cursive;
+}
+
+.navbars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link,
+li {
+    display: flex;
+}
+
+.nav-link li,
+a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link a:hover {
+
+    color: rgb(6, 140, 46);
+
+}
+
+.contact {
+    color: rgb(200, 213, 216);
+    text-align: center;
+    background-image: url(image/ab.jpg);
+    margin: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    height: 40vh;
+    width: 100vw;
+    padding-top: 5%;
+    margin-top: auto;
+
+
+
+}
+
+.contact a {
+    color: aliceblue;
+
+
+
+}
+
+.contact p {
+    padding-top: 50px;
+
+}
+
+.styler p {
+    /* text-align: center; */
+    /* padding-bottom: 200px;  */
+
+}
+
+
+body {
+    background-color: rgb(217, 225, 233);
+}
+
+
+
+
+.thabhayena {
+
+    background-color: beige;
+    color: black;
+}
+
+.top {
+    background-color: aliceblue;
+}
+
+.home {
+    color: black;
+}
+
+.thabhayena {
+    display: flex;
+}
+
+.kind {
+    display: flex;
+}
+
+.top {
+    margin: 5%;
+    padding: 8px opx 7px 7px;
+}
+
+.bb {
+    margin: 5%;
+    padding: 7px opx 7px 7px;
+}
+
+.width {
+    width: max-content;
+}
